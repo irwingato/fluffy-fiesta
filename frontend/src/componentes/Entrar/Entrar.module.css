@@ -1,0 +1,114 @@
+/* Create all the fields components that exist in the file Entrar.jsx */
+/* General Styles */
+.entrar_container {
+  width: 100%;
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 20px;
+}
+
+/* Left Side - Introduction */
+.left {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  border-radius: 10px;
+  background: linear-gradient(to bottom, #3bb19b, #318994);
+  color: #fff;
+  padding: 30px;
+}
+
+.left h1 {
+  font-size: 3rem;
+  margin-top: 0;
+  text-align: center;
+  border-radius: 20px;
+}
+
+/* Right Side - Registration Form */
+.right {
+  flex: 2;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  border-top-left-radius: 10px;
+  /* Changed to top-left */
+  border-bottom-left-radius: 10px;
+  /* Changed to bottom-left */
+  background-color: #fff;
+  padding: 30px;
+}
+
+.right form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+/* Input Styles */
+.input {
+  outline: none;
+  border: 2px solid #ccc;
+  width: 100%;
+  padding: 15px;
+  border-radius: 10px;
+  margin: 10px 0;
+  font-size: 1.1rem;
+}
+
+.form input {
+  color: black;
+}
+
+/* Error Message Styles */
+.erro_msg {
+  width: 100%;
+  padding: 15px;
+  margin: 10px 0;
+  font-size: 1rem;
+  background-color: #f34646;
+  color: #fff;
+  border-radius: 5px;
+  text-align: center;
+}
+
+.button_container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+div .entrar_btn {
+  border: none;
+  padding: 15px;
+  border-radius: 10px;
+  margin: 10px 0;
+  font-size: 1.1rem;
+  cursor: pointer;
+  background-color: #3bb19b;
+}
+
+.entrar_btn:hover {
+  background-color: rgb(51, 49, 47);
+}
+
+div .novo_aqui_btn {
+  background-color: #3bb19b;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  font-size: 1.1rem;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.novo_aqui_btn:hover {
+  background-color:  rgb(51, 49, 47);
+}

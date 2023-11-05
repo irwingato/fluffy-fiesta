@@ -1,0 +1,46 @@
+.criar-tarefas-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  
+  .criar-tarefas-card {
+    width: 300px;
+    padding: 20px;
+    border: 2px solid #ccc;
+    border-radius: 8px;
+  }
+  
+  .criar-tarefas-title {
+    font-size: 24px;
+    margin-bottom: 16px;
+  }
+  
+  .criar-tarefas-form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .criar-tarefas-input {
+    margin-bottom: 16px;
+  }
+  
+  .criar-tarefas-label {
+    font-size: 16px;
+    margin-bottom: 8px;
+  }
+  
+  .criar-tarefas-input-field {
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  .criar-tarefas-button {
+    padding: 8px;
+    background-color: #ccc;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }

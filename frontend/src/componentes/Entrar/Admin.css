@@ -1,0 +1,79 @@
+/* Container */
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #f0f0f0;
+    border-radius: 5px;
+    font-size: large;
+    color: #C0C0C0;
+    font-family: "Arial", sans-serif;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  }
+  
+  /* Título */
+  h1 {
+    font-size: 24px;
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  /* Lista de Usuários */
+  ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  /* Itens de Usuários */
+  .user-item {
+    background-color: #fff;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 10px;
+    margin: 10px 0;
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  /* Botões em Itens de Usuários */
+  .user-item button {
+    background-color: #ff0000;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    padding: 5px 10px;
+    cursor: pointer;
+  }
+  
+  .user-item button.edit {
+    background-color: #0073e6;
+  }
+  
+  /* Novo Usuário */
+  .novo-usuario {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 20px;    
+  }
+  
+  .novo-usuario input {
+    flex: 1 1 auto;
+    margin-right: 10px;
+    padding: 5px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  /* Botão Criar */
+  .criar-button {
+    background-color: #0073e6;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    padding: 5px 10px;
+    cursor: pointer;
+    /*Align in the middle of the form*/
+    align-self: flex-end;
+  }
+  

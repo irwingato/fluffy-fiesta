@@ -1,0 +1,152 @@
+/* General Styles */
+.cadastrar_container {
+    width: 100%;
+    min-height: 100vh;
+    background-color: #f5f5f5;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.cadastrar_form_container {
+    max-width: 900px;
+    padding: 50px;
+    display: flex;
+    border-radius: 10px;
+    box-shadow: 0px 3px 3px -2px rgba(0, 0, 0, 0.2),
+        0px 3px 4px 0px rgba(0, 0, 0, 0.14), 0px 1px 8px 0px rgba(0, 0, 0, 0.12);
+    background-color: #fff;
+}
+
+/* Left Side - Introduction */
+.left {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+    background: linear-gradient(to bottom, #3bb19b, #318994);
+    color: #fff;
+    padding: 30px;
+}
+
+.left h1 {
+    font-size: 3rem;
+    margin-top: 0;
+    text-align: center;
+}
+
+/* Right Side - Registration Form */
+.right {
+    flex: 2;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    background-color: #fff;
+    padding: 30px;
+}
+
+/* Form Container */
+.form-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.form-container h1 {
+    font-size: 2.5rem;
+    margin-top: 0;
+}
+
+/* Input Styles */
+.input {
+    outline: none;
+    border: 2px solid #ccc;
+    width: 100%;
+    padding: 15px;
+    border-radius: 10px;
+    margin: 10px 0;
+    font-size: 1.1rem;
+}
+
+/* Error Message Styles */
+.erro_msg {
+    width: 100%;
+    padding: 15px;
+    margin: 10px 0;
+    font-size: 1rem;
+    background-color: #f34646;
+    color: #fff;
+    border-radius: 5px;
+    text-align: center;
+}
+
+/* Button Styles */
+.white_btn,
+.green_btn {
+    border: none;
+    outline: none;
+    padding: 12px 0;
+    border-radius: 20px;
+    width: 180px;
+    font-weight: bold;
+    font-size: 1.1rem;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    color: #333;
+    /* Dark text color for buttons */
+}
+
+.green_btn {
+    background-color: #3bb19b !important;
+    color: #fff;
+    margin-top: 10px;
+}
+
+.white_btn:hover {
+    background-color: #f1f1f1;
+    color: #333;
+    /* Dark text color for buttons on hover */
+}
+
+.green_btn:hover {
+    background-color: #334b4e !important;
+}
+
+
+/* Responsive Styles */
+@media (max-width: 768px) {
+    .cadastrar_form_container {
+        flex-direction: column;
+        max-width: 100%;
+        padding: 20px;
+    }
+
+    .left,
+    .right {
+        border-radius: 10px;
+        margin-bottom: 20px;
+    }
+
+    .left {
+        border-bottom-left-radius: 0;
+    }
+
+    .right {
+        border-top-right-radius: 0;
+    }
+
+    .input {
+        width: 100%;
+    }
+
+    .white_btn,
+    .green_btn {
+        width: 100%;
+    }
+}
